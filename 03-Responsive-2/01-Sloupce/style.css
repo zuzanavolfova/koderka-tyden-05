@@ -28,5 +28,5 @@ Nastav CSS pro třídu .kontejner a .sloupec tak, aby:
 		.kontejner {display: flex;
 		}
 	
-.sloupec {flex-basis: calc(100% / 3);
+.sloupec {flex: 1 1 calc(100% / 3);
  }}
