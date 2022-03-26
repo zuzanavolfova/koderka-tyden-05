@@ -24,3 +24,9 @@ Nastav CSS pro třídu .kontejner a .sloupec tak, aby:
   a budou roztažené přes celou stránku, všechny budou mít stejnou šířku
 */
 
+	@media screen and (min-width: 800px){
+		.kontejner {display: flex;
+		}
+	
+.sloupec {flex-basis: calc(100% / 3);
+ }}
