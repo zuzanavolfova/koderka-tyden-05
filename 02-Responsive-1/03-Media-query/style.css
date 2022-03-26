@@ -13,8 +13,12 @@ body {
 		font-size: 24px;
 		text-align: center;
 		border: 3px solid black;
+		background-color: #2ecc71;
 }
 
+@media screen and (min-width:800px) {
+	.obdelnik {background-color:#e74c3c ;}
+}
 /*
 	Napiš CSS, kde bude mít obdélník ve výchozím stavu zelenou
 	barvu pozadí.	Když bude šířka prohlížeče (resp. šířka viewportu)
