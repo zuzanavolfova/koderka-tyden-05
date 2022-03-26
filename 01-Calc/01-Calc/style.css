@@ -16,9 +16,14 @@ html { box-sizing: border-box; }
 .box:nth-child(5n+5) { background-color: #9b59b6;}
 
 .kontejner {
+	display: flex;
 	padding: 10px;
 	border: 1px dashed red;
 	background-color: #ffffcc;
+	flex-wrap: wrap ;
+	justify-content: space-between;
 }
 
-/* ---------------------------------------------------- */
+.box {
+	flex: 0 0 calc((100% - 90px) / 3)
+}
